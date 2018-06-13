@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(cors({
-  origin: 'http://localhost:3001',
+  origin: 'https://dumpr-client.herokuapp.com/',
   optionsSuccessStatus: 200
 }))
 app.use((req, res, next) => {
